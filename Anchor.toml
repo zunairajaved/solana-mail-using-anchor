@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.localnet]
+solana_mail = "B8F4vGGVet92r68WhQuSdXno5NNpogcQ1j7Qb7UE9M5Z"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/zunairajaved/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -t 1000000 tests/**/*.ts"
